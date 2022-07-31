@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"outDir": "dist"
+	},
+	"exclude": [ "src/**/*.spec.tsx", "src/**/*.spec.mts" ],
+	"extends": "./tsconfig.json",
+	"include": [ "src" ]
+}
